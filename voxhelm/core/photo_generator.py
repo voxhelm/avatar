@@ -103,7 +103,7 @@ def _post(payload: dict, api_key: str) -> dict:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/clawtalk/photo-generation",
+            "HTTP-Referer": "https://github.com/voxhelm/photo-generation",
             "X-Title": "voxhelm-photo",
         },
         method="POST",
